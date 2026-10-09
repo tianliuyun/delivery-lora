@@ -1,0 +1,30 @@
+{"question": "EDS分布式存储中，重要数据建议开启至少几副本？", "answer": "重要数据开启多副本，至少3副本。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS磁盘故障排查时，第一步应查看什么信息？", "answer": "第一步查看磁盘SMART信息。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS磁盘故障处理中，单块磁盘故障应采取什么处理方法？", "answer": "单块磁盘故障：等待自动重建。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS磁盘故障处理中，多块磁盘故障应采取什么处理方法？", "answer": "多块磁盘故障：联系技术支持。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS网络故障排查时，第二步应确认什么网卡状态？", "answer": "第二步确认万兆网卡状态。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS网络故障排查中，第三步应查看交换机什么计数？", "answer": "第三步查看交换机端口错误计数。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS性能问题优化建议中，第一条是什么？", "answer": "增加SSD缓存层。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS性能问题优化建议中，关于条带大小应做什么优化？", "answer": "优化条带大小。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS日常运维中，建议每周检查磁盘的什么信息？", "answer": "每周检查磁盘SMART。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "EDS日常运维中，建议每月做一次什么对比？", "answer": "每月做一次性能基线对比。", "source": "EDS分布式存储故障排查.md", "category": "硬知识"}
+{"question": "NVIDIA License Server 的默认服务端口是多少？", "answer": "默认 7070。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "部署 GPU 虚拟化云桌面时，每 GPU 卡建议配置多少内存以上？", "answer": "每 GPU 卡配置 128GB 以上内存。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "文档中推荐的 GPU 虚拟化支持卡型号有哪些？", "answer": "NVIDIA A10 / A16 / L20 等 vGPU 支持卡。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "服务器 CPU 的最低配置要求是什么？", "answer": "至少 2 颗 CPU，每颗 16 核以上。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "存储网络和业务网络的带宽要求分别是多少？", "answer": "存储网络和业务网络均要求万兆以上。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "管理网络的最低带宽要求是多少？", "answer": "管理网络要求千兆以上。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "2D 办公场景推荐使用哪种 vGPU 类型，显存建议是多少？", "answer": "推荐 1Q，显存建议 1GB。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "中型设计场景推荐使用哪种 vGPU 类型，显存建议是多少？", "answer": "推荐 4Q，显存建议 4GB。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "重型渲染场景推荐使用哪些 vGPU 类型，显存建议是多少？", "answer": "推荐 8Q / 16Q，显存建议 8GB+。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "虚拟机模板制作中，安装 vGPU 驱动时需要注意什么？", "answer": "注意 vGPU 驱动版本匹配。", "source": "GPU虚拟化云桌面部署指南.md", "category": "硬知识"}
+{"question": "桌面云网络排查中，每用户建议的最低带宽是多少？", "answer": "建议每用户至少 2Mbps。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "桌面云网络排查中，丢包率应低于多少？", "answer": "丢包率应低于 1%。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "桌面云登录时间的“良好”指标标准是多少？", "answer": "登录时间良好标准为 <5s。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "桌面云操作延迟的“可接受”指标范围是多少？", "answer": "操作延迟可接受范围为 100-200ms。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "桌面云 3D 场景帧率的“需优化”标准是多少？", "answer": "帧率（3D）需优化标准为 <20fps。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "桌面云网络排查的正确步骤顺序是什么？", "answer": "1.检查网络延迟；2.确认带宽；3.检查丢包；4.优化内外网接入路径。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "桌面云客户端优化的四项措施是什么？", "answer": "升级客户端、开启硬件加速、设置开机自启动+托盘常驻、清理客户端缓存。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "桌面云服务器端优化中，3D 场景需要确认什么资源配置？", "answer": "确认 GPU 资源配置（3D 场景）。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "某券商 18000 点桌面云项目最终接入速度优化结果如何？", "answer": "从比竞品慢 2s 优化到反超快 8s+，累计优化 10s+。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
+{"question": "某券商桌面云项目主要采用的接入架构优化手段是什么？", "answer": "双入口架构（内网直连+外网负载均衡代理）。", "source": "桌面云接入优化指南.md", "category": "硬知识"}
