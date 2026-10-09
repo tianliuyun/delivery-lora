@@ -1,0 +1,29 @@
+{
+  "base_model": "models/Qwen2-0.5B-Instruct",
+  "adapter": "output/qlora_all_v3",
+  "quantization": "INT4 (bitsandbytes 4bit, compute fp16)",
+  "gpu": "NVIDIA MX350 2GB",
+  "load_sec": 1.55,
+  "peak_mem_load_mb": 535,
+  "peak_mem_infer_mb": 547,
+  "gpu_total_mb": 2048,
+  "mem_utilization_pct": 26.7,
+  "results": [
+    {
+      "question": "EDS分布式存储中，重要数据建议开启至少几副本？",
+      "answer": "推荐开启3副本。",
+      "infer_sec": 0.96
+    },
+    {
+      "question": "桌面云登录超时，第一步应该检查什么？",
+      "answer": "首先检查网络状态，其次检查客户端和服务器的IP地址是否正确。",
+      "infer_sec": 2.06
+    },
+    {
+      "question": "GPU虚拟化部署中，NVIDIA 授权服务器默认端口是多少？",
+      "answer": "默认端口为 5432。",
+      "infer_sec": 1.3
+    }
+  ],
+  "note": "本机实测：0.5B INT4 量化后推理峰值显存；7B INT4 的 13GB→2GB 仍为部署设计目标（本机 2GB 显存无法加载 7B）"
+}

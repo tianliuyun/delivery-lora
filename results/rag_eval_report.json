@@ -1,0 +1,97 @@
+{
+  "total": 8,
+  "hit_rate": 0.5,
+  "avg_faithfulness": 1.0,
+  "avg_retrieval_ms": 0.35,
+  "avg_generation_ms": 0.0,
+  "results": [
+    {
+      "question": "桌面云登录慢，第一步应该检查什么？",
+      "hit": false,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.5004405975341797,
+      "generation_ms": 0.0019073486328125,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    },
+    {
+      "question": "桌面云每用户建议带宽至少多少？",
+      "hit": true,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.36835670471191406,
+      "generation_ms": 0.0016689300537109375,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    },
+    {
+      "question": "EDS 磁盘故障排查第一步看什么？",
+      "hit": false,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.3173351287841797,
+      "generation_ms": 0.0016689300537109375,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    },
+    {
+      "question": "EDS 网络故障排查第二步确认什么网卡？",
+      "hit": true,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.3426074981689453,
+      "generation_ms": 0.0016689300537109375,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    },
+    {
+      "question": "GPU 虚拟化部署中，NVIDIA 授权服务器默认端口是多少？",
+      "hit": true,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.3631114959716797,
+      "generation_ms": 0.001430511474609375,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    },
+    {
+      "question": "GPU 虚拟化推荐哪些显卡型号？",
+      "hit": false,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.3101825714111328,
+      "generation_ms": 0.0011920928955078125,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    },
+    {
+      "question": "GPU 虚拟化存储网络建议什么规格？",
+      "hit": false,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.3199577331542969,
+      "generation_ms": 0.001430511474609375,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    },
+    {
+      "question": "EDS 重要数据建议开启几副本？",
+      "hit": true,
+      "faithfulness": 1.0,
+      "retrieval_ms": 0.3161430358886719,
+      "generation_ms": 0.0016689300537109375,
+      "context_count": 5,
+      "metadata": {
+        "phoenix": true
+      }
+    }
+  ]
+}
